@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Profile</h1>
+    </header>
+    <main>
+        <article>  <!--describes self independence-->
+            <header>
+                <h2>About Me</h2>
+            </header>
+            <p>Hi, i'm Brian, and i'm learning HTML, CSS and Javascript! This page demonstrate basic concepts i learned this week on 4th of october</p>
+        </article>
+
+        <section>  <!--describes more about the contents in the article-->
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML Fundamentals</li>
+                <li>CSS Basics</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+            <section>
+                <h3>My Hobbies</h3>
+                <ol>
+                    <li>Coding</li>
+                    <li>Reading</li>
+                    <li>Gaming</li>
+                </ol>
+            </section>
+        </section>
+        <!--tables-->
+        <section>
+            <h3>Daily Schedule</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6 Am - 7 AM</td>
+                        <td>Reading Mountain Is You</td>
+                    </tr>
+                    <tr>
+                        <td>7AM - 8:30AM</td>
+                        <td>Studying HTML</td>
+                    </tr>
+                    <tr>
+                        <td>9AM - 10AM</td>
+                        <td>Workout</td>
+                    </tr>
+                    <tr>
+                        <td>10AM - 10:30AM</td>
+                        <td>Preparing for Work</td>
+                    </tr>
+                    <tr>
+                        <td>11AM - 10PM</td>
+                        <td>Work</td>
+                    </tr>
+                    <tr>
+                        <td>10PM - 6AM</td>
+                        <td>Sleeping</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+        <!--links-->
+        <nav>
+            <h3>Usefull Links</h3>
+            <ol>
+                <li><a href="https://giraffeacademy.com">HTML Learning</a></li>
+                <li><a href="https://www.w3schools.com">w3Schools</a></li>
+            </ol>
+        </nav>
+        <br>
+        <nav>
+            <ul> 
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Info</a></li>
+            </ul>
+        </nav>
+
+        <!--forms-->
+        <form action="submit_form.php" method="POST">    <!--registration form-->
+            <h2>Register Here</h2>
+        
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+        
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+        
+            <label for="gender">Gender:</label><br>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label><br><br>
+        
+            <label for="subscribe">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+        
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select><br><br>
+        
+            <input type="submit" value="Register">
+        </form>
+
+        <br>
+
+        <!--Login Form-->
+        <div class="form">
+            <h2>Login Here</h2>
+        
+            <form action="submit_login.php" method="POST">
+                <input type="email" name="email" placeholder="Enter Email Here" required>
+                <input type="password" name="password" placeholder="Enter Password Here" required>
+                <button type="submit" class="btn2">Login</button>
+            </form>
+        
+            <p class="link">Don't have an account?<br>
+                <a href="#">Sign Up</a> Here </a>
+            </p>
+        
+            <p class="liw">Log in with</p>
+        
+            <div class="icons">
+                <i class="bx bxl-twitter"></i>
+                <i class="bx bxl-facebook"></i>
+                <i class="bx bxl-google"></i>
+                <i class="bx bxl-skype"></i>
+                <i class="bx bxl-instagram"></i>
+                <i class="bx bxl-pinterest"></i>
+            </div>
+        </div>
+        
+        
+        
+
+
+
+    </main>
+
+    <footer>
+        <section>
+            <h4>About Page</h4>
+            <p>The page tells about everything i learnt in html</p>
+        </section>
+        <p>designed by <a href="instagram">timanbryan47</a>, on 4th october, 2024</p>
+    </footer>
+</body>
+</html>
