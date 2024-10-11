@@ -1,4 +1,4 @@
-/*document.write("<h3 style='color:blue;'>Javascript Rules!</h3>");
+document.write("<h3 style='color:blue;'>Javascript Rules!</h3>");
 document.write("<hr>");
 document.write("<span style='background-color:aqua;'>hoselu</span>");
 document.write("<hr>");
